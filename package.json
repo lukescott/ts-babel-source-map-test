@@ -1,0 +1,31 @@
+{
+  "name": "ts-babel-source-map-test",
+  "private": true,
+  "jest": {
+    "transform": {
+      "^.+\\.[tj]sx?$": "<rootDir>/preprocessor1.js"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "ts",
+      "tsx"
+    ],
+    "testMatch": [
+      "**/?(*.)(spec|test).(js|ts)?(x)"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^19.2.3",
+    "@types/node": "^7.0.18",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^20.0.0",
+    "typescript": "^2.3.2"
+  }
+}
